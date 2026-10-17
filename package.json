@@ -1,0 +1,24 @@
+{
+  "name": "dazi",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI 搭子（Dazi）：点击悬浮球，在浏览器原生侧栏里用 ChatGPT / DeepSeek / Gemini / Claude 等 AI 对话，切换标签页也不丢上下文。 | Dazi: a floating launcher that opens a native Chrome side panel for ChatGPT, DeepSeek, Gemini, Claude and more — conversations survive tab switches and page navigation.",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "icons": "node scripts/gen-icons.mjs",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@wxt-dev/module-react": "^1.2.2",
+    "tailwindcss": "^4.3.3",
+    "wxt": "^0.21.4"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
